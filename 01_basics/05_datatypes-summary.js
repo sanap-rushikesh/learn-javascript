@@ -22,23 +22,48 @@ const bigNumber = 34555454343434334734333n
 
 
 
-
 // Reference (Non-primitive)
 
 // Array, Objects, Functions
 
 const heros = ["shaktiman", "ironman", "naagraj", "doga"];
-console.log(typeof heros);
+// console.log(typeof heros);
 
 
 let myObj = {
   name: "rushikesh",
   age: 23
 }
-console.log(typeof myObj);
+// console.log(typeof myObj);
 
 
 const myFunction = function () {
   console.log("Hello world");
 }
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+
+
+
+//*****************************************************************
+
+// Stack (Primitive), Heap (Non-primitive)
+
+let myYoutubeName = "trickybrianlabdotcom";
+let anotherName = myYoutubeName;
+anotherName = "chaiaurcode";
+
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+let userOne = {
+  email: "user@google.com",
+  upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "rushikesh@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
