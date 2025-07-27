@@ -1,3 +1,5 @@
+//****************************************** Conversion ***********************************************
+
 let score = 33;
 let score2 = "43";
 let score3 = "53abc"
@@ -33,6 +35,61 @@ let booleanIsLoggedIn = Boolean(isLoggedIn3)
 let someNumber1 = 33;
 
 let stringNumber = String(someNumber1);
-console.log(typeof stringNumber);
-console.log(stringNumber);
+// console.log(typeof stringNumber);
+// console.log(stringNumber);
+
+//****************************************** Operations ***********************************************
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "hello"
+let str2 = " rushikesh"
+
+let str3 = str1 + str2;
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log((3 + 4) * 5 % 3);
+
+// console.log(true);
+// console.log(+true);
+// console.log("");
+// console.log(+"");
+
+let num1, num2, num3;
+num1 = num2 = num3 = 2 + 2;
+// console.log(num1);
+// console.log(num2);
+// console.log(num3);
+
+let gameCounter = 100;
+gameCounter++;
+// console.log(gameCounter);
+
+let x = 3;
+// console.log(x);
+const y = x++;
+// console.log(x);
+// console.log(y);
+
+
+
+let a = 3;
+const b = ++a;
+console.log(a);
+console.log(b);
+
 
